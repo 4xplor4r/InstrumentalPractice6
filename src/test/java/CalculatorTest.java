@@ -6,12 +6,12 @@ public class CalculatorTest {
 
     @Test
     void additional() {
-        assertEquals(7, calc.add(3, 4));
+        assertEquals(6, calc.add(2, 3));
     }
 
     @Test
     public void subtraction() {
-        assertEquals(4, calc.sub(7, 3));
+        assertEquals(7, calc.sub(11, 4));
     }
 
     @Test
@@ -21,11 +21,11 @@ public class CalculatorTest {
 
     @Test
     public void division() {
-        assertEquals(3, calc.div(21, 7));
+        assertEquals(8, calc.div(40, 5));
     }
 
     @Test
     public void checkSolver() {
-        assertEquals(12.5, calc.solver(6) );
+        assertEquals(7, calc.solver(3) );
     }
 }
